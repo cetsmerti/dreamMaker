@@ -3,7 +3,7 @@ import DropDownProps from './DropDown.props';
 import styles from './DropDown.module.css'
 export const DropDown = ({ list, setList }: DropDownProps): JSX.Element => {
     const [open, setOpen] = useState<boolean>(false);
-    const lists = ['123', 'adsda'];
+    const lists = ['Dream of childhood', 'Dream teenage', 'Dream of a lifetime', "Dream to which I fulfill"];
     const toogle = () => setOpen(!open);
 
     const selectList = (e: string) => {
