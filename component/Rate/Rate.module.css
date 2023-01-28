@@ -1,0 +1,11 @@
+@media screen and (max-width: 1200px ) {
+    .rate img{
+        width: 30px;
+    }
+}
+@media screen and (max-width: 1200px ) {
+     .rate img{
+
+        height: 15px;
+    }
+}

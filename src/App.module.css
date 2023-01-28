@@ -1,0 +1,12 @@
+.App{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    
+}
+.App :last-child{
+    grid-column: 2;
+}
+.App :first-child{
+    grid-row: 2;
+}

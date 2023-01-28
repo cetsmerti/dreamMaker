@@ -1,0 +1,60 @@
+
+.sort{
+    background: #7653FC;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    height: 40px;
+    width: 40%;
+}
+
+.medium{
+    background: #7653FC;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 30%;
+}
+.medium:hover{
+    background: #6344df;
+}
+.sort:hover{
+    background: #6344df;
+}
+.dell:hover{
+    background: #6344df;
+}
+.dell{
+     background: #7653FC;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    top: 11px;
+    right: -39px;
+    position: absolute;
+    padding-bottom: 4px;
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width: 774px) {
+    .sort{
+        font-size: 13px;
+        height: 50px;
+    }
+    .medium{
+        font-size: 13px;
+        width: 75px;
+    }
+}
